@@ -1,12 +1,12 @@
 # Site settings
 title: MAST Blog
-description: 'Artificial Intelligence trends and concepts made easy.' # this means to ignore newlines until "baseurl:"
+description: 'We are an astronomical data archive focused on the optical, ultraviolet, and near infrared. This is our blog!' # this means to ignore newlines until "baseurl:"
 permalink: ':title:output_ext'
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://the-mvm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/assets/img/branding/MAST-Logo-Horizontal.svg"
-logo-icon: "/assets/img/branding/MVM-symbol.svg"
-logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG file
+baseurl: "/mast-blog" # the subpath of your site, e.g. /blog
+url: "https://spacetelescope.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+logo: "/assets/img/branding/mast-logo-horizontal-blue.svg"
+logo-icon: "/assets/img/branding/mast-logo-square.svg"
+#logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG file
 
 # Night/Dark mode
 # Default mode is "auto", "auto" is for auto nightshift
@@ -20,20 +20,20 @@ logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG f
 # the browser is closed or not)
 night_mode: "auto"
 
-logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg"
+logo-dark: "/assets/img/branding/mast-logo-horizontal.svg"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
 author: STScI # add your name
-author-pic: Myself_Neon_grey.jpg
-about-author: The Barbara A. Mikulski Archive for Space Telescopes
+author-pic: "assest/img/branding/mast-ruls.jpg"
+about-author: We are the Barbara A. Mikulski Archive for Space Telescopes! Primary focused on the optical, ultraviolet, and near-infrared, we host data from Hubble, JWST, and over two dozen other missions.
 
 # Contact links
 email: archive@stsci.edu # Add your Email address
 phone: # Add your Phone number
 website: https://archive.stsci.edu # Add your website
 linkedin: # Add your Linkedin handle
-github: # Add your Github handle
+github: https://github.com/spacetelescope/mast_notebooks
 twitter: # Add your Twitter handle
 bandcamp: # Add your Bandcamp username
 stackoverflow: # Add your stackoverflow account
@@ -74,7 +74,7 @@ compress_html:
   startings: [html, head, body]
 
 # Outputting
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 category_archive:
   type: liquid
