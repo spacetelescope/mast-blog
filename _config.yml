@@ -24,7 +24,7 @@ logo-dark: "/assets/img/branding/mast-logo-horizontal.svg"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
-author: STScI # add your name
+author: MAST # add your name
 author-pic: "branding/mast-ruls.jpg"
 about-author: We are the Barbara A. Mikulski Archive for Space Telescopes! Primary focused on the optical, ultraviolet, and near-infrared, we host data from Hubble, JWST, and over two dozen other missions.
 
@@ -33,13 +33,13 @@ email: archive@stsci.edu # Add your Email address
 phone: # Add your Phone number
 website: https://archive.stsci.edu # Add your website
 linkedin: # Add your Linkedin handle
-github: https://github.com/spacetelescope/mast_notebooks
+github: spacetelescope/mast_notebooks
 twitter: # Add your Twitter handle
 bandcamp: # Add your Bandcamp username
 stackoverflow: # Add your stackoverflow account
 
 # Newsletter
-mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
+# mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
 
 # Tracker
 analytics: 
