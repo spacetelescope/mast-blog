@@ -4,7 +4,7 @@ read_time: true
 show_date: true
 title: "Template post"
 date: 1900-01-01
-img: posts/19000101/jdaviz.svg
+img: posts/19000101/template_image.png
 tags: [template]
 category: template
 author: Me, myself, and I
