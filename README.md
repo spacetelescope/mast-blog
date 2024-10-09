@@ -9,7 +9,7 @@ Welcome to the MAST blog.
 Directory structure of the blog. More information on what these folders and files do can be found in the [Jekyll documentation site](https://jekyllrb.com/docs/structure/).
 
 ```bash
-Adam Blog 2.0/
+mast-blog/
 ├── _includes                  # Theme includes
 ├── _layouts                   # Theme layouts (see below for details)
 ├── _posts                     # Where all your posts will go
