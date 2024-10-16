@@ -26,7 +26,7 @@ highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code h
 # Author settings
 author: MAST # add your name
 author-pic: "branding/mast-ruls.jpg"
-about-author: We are the Barbara A. Mikulski Archive for Space Telescopes! Primary focused on the optical, ultraviolet, and near-infrared, we host data from Hubble, JWST, and over two dozen other missions.
+about-author: We are the Barbara A. Mikulski Archive for Space Telescopes! Primarily focused on the optical, ultraviolet, and near-infrared, we host data from Hubble, JWST, and over two dozen other missions.
 
 # Contact links
 email: archive@stsci.edu # Add your Email address
