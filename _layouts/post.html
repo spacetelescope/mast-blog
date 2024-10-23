@@ -32,9 +32,9 @@ layout: default
         {{page.content | markdownify}}
         {% include sidebar.html context="post" class="inline" id="post-end" %}
         <div class="separator"></div>
+        <p>{{page.author}} on behalf of MAST</p>
         {% include author-box.html %}
         {% include recent-post.html %}
-        {% include comments.html %}
       </div>
     </div> <!-- End Wrapper -->
   </article>
