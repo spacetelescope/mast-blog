@@ -4,6 +4,9 @@ Welcome to the MAST blog.
 
 ## Additional documentation
 
+### Contributing
+Please see the [contribution guide](contributing/how-to-contribute.md) for instructions.
+
 ### Directory Structure
 
 Directory structure of the blog. More information on what these folders and files do can be found in the [Jekyll documentation site](https://jekyllrb.com/docs/structure/).
