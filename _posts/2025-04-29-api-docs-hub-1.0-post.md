@@ -17,4 +17,4 @@ This 1.0 release focuses on the many OpenAPI standard web services MAST hosts on
 
 Try it out: [https://mast.stsci.edu/docs/](https://mast.stsci.edu/docs/)
 
-![Screenshot of the API Documentation Hub page, scrolled down slightly, showing the MAST header and 'help' link, an empty search bar, and the first six service summaries boxed with individual home page and docs links. These are CaSSI, Catalogs MAST, Exo-MAST, HAPCut, High Level Science Products, and MAST DOI.](/assets/img/posts/20250429.png)
+![Screenshot of the API Documentation Hub page, scrolled down slightly, showing the MAST header and 'help' link, an empty search bar, and the first six service summaries boxed with individual home page and docs links. These are CaSSI, Catalogs MAST, Exo-MAST, HAPCut, High Level Science Products, and MAST DOI.](/assets/img/posts/20250429/api_doc_hub.png)
