@@ -1,6 +1,9 @@
 ## Template
 See the [template post](1900-01-01-template-post.md) to understand the structure of a typical post.
 
+## Where do posts go?
+Once you've written a markdown post following the template above, you can add it to `_posts/`. Please follow the naming convention `YYYY-MM-DD-article-name-here.md`. Any images should be added to a folder corresponding to the article date, i.e. `assets/img/posts/YYYYMMDD/`
+
 ## Tags
 Tags are used to sort posts. You should use at least one tag from the table below. When appropriate you may use multiple tags, including those not listed in the table (for example, tagging a post with "software-release" and "jdaviz").
 
