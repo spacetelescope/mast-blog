@@ -11,7 +11,7 @@ author: MAST Staff
 description: "Search API documentation across MAST web services"
 ---
 
-MAST has just launched a centralized, searchable web portal that indexes the documentation for our many APIs. You can browse through summaries of supported services or enter search keywords (for example: mission names, interface standards like "cone search", or service features like "cutouts") to retrieve a list of related services. Search results include links direct links to their corresponding documentation, making it easier and faster to find the right tool for the job. 
+MAST has just launched a centralized, searchable web portal that indexes the documentation for our many APIs. You can browse through summaries of supported services or enter search keywords (for example: mission names, interface standards like "cone search", or service features like "cutouts") to retrieve a list of related services. Search results include direct links to their corresponding documentation, making it easier and faster to find the right tool for the job.
 
 This 1.0 release focuses on the many OpenAPI standard web services MAST hosts on our Python platform. Each listing provides links to project homepages and to Sphinx API documentation in a familiar Read the Docs style, with included SwaggerUI pages that describe how to interact with each service. Additional MAST services, notebooks, and/or documentation may be included in the future, as resources allow. Searchable contents are automatically updated to use the latest documentation from each service, ensuring you're always looking at the latest and greatest version.
 
