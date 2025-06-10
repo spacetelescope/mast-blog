@@ -3,11 +3,12 @@ layout: post
 read_time: true
 show_date: true
 title: "June 26: all TAP access to Python"
-date: 2025-06-13
-tags: [tools-techniques]
+date: 2025-06-10
+tags:
+  - tools-techniques
 category: IVOA
 author: Theresa Dower
-description: "Migration of MAST TAP services, sunsetting vao.stsci.edu"
+description: Migration of MAST TAP services, sunsetting vao.stsci.edu
 ---
 
 MAST has been busy building support for Table Access Protocol (TAP) services on a modern Python platform, to support our catalogs large and small. Updates to improve metadata, usability, and documentation have culminated in a series of catalogs available via [TAP standard API interfaces](https://mast.stsci.edu/vo-tap); this includes all data we've made available via TAP on older platforms. It is now time to sunset the TAP services on the previous system. We will be closing down the vao.stsci.edu TAP services on _Thursday, June 26, 2025_.
