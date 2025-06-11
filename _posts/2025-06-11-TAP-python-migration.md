@@ -3,7 +3,7 @@ layout: post
 read_time: true
 show_date: true
 title: "June 26: all TAP access to Python"
-date: 2025-06-10
+date: 2025-06-11
 tags:
   - tools-techniques
 category: IVOA
