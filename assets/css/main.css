@@ -1489,7 +1489,7 @@ img + small, img + br + small {
 }
 .header-page h1 {
   font-weight: var(--font2-regular);
-  font-size: 4.25rem;
+  font-size: 2rem;
   text-align: left;
   margin: 0 0 10px;
   color: var(--text)
