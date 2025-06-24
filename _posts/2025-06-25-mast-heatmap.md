@@ -3,8 +3,8 @@ layout: post
 read_time: true
 show_date: true
 title: "MAST's View of the Sky: Your Next Wallpaper"
-date: 2025-06-25
-img: posts/19000101/template_image.png
+date: 2025-06-24
+img: posts/20250625/mast_wallpaper_blue.png
 tags:
   - fun
   - outreach
