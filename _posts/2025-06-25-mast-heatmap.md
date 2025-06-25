@@ -32,7 +32,7 @@ MAST is not *merely* a data archive; we spend lots of time and effort making sur
 ## Yeah, but like, HOW specifically did you make this?
 
 ### First Version: Intelligent Requests
-Our initial goal was for pixels half a degree wide, so there were `720x360=259200` regions for which we needed to know the total number of observations. Spamming our own servers with one request for each of the 2.6 million regions either requires immense patience (I'm not waiting 6 days for an answer!) or performing a [denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) on our own servers. The other extreme would be to do a single query, loading the entire database into memory. Clearly absurd<sup>1</sup>.
+Our initial goal was for pixels half a degree wide, so there were `720x360=259200` regions for which we needed to know the total number of observations. Spamming our own servers with one request for each of the 2.6 million regions either requires immense patience (I'm not waiting 30 days for an answer!) or performing a [denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) on our own servers. The other extreme would be to do a single query, loading the entire database into memory. Clearly absurd<sup>1</sup>.
 
 <small><sup>1</sup> Unless....?</small>
 
@@ -54,7 +54,7 @@ for dec in dec_sample:
 
 Following this recipe produces an image like the one below:
 ![the first, lower resolution version of the wallpaper](assets/img/posts/20250625/mast_wallpaper_blue_og.png)
-<small>The first version of the MAST background, with pixels half a degree wide. The intrinsic resolution of our data is therefore 720x360, which results in notable pixellation near the ecliptic poles. </small>
+<small>The first version of the MAST background, with pixels half a degree wide. The intrinsic resolution of our data is therefore 720x360, which results in some noticeable pixellation. </small>
 
 Looks phenomenal! Many archive scientists were super excited to see this.
 ### Revised Version: RAM go brrrr
@@ -83,7 +83,7 @@ As a quick refresher, CAOM uses coordinates aligned to the celestial pole, which
 Ecliptic coordinates are useful for space-based telescopes, since the sun is — by definition —always at a declination of 0º. In fact, the [survey design of the TESS spacecraft](https://youtu.be/Q4KjvPIbgMI&t=115) takes advantage of this by always keeping one camera on the ecliptic pole, with the others facing opposite the sun.
 
 ![the MAST heatmap, reprojected to the plane of the ecliptic](assets/img/posts/20250625/mast_wallpaper_ecl_blue.png)
-<small>Ohhhh, so that's why those observations make a straight line around the plane of the ecliptic! They're from TESS.</smalll>
+<small>Ohhhh, so that's why those observations make a straight line around the plane of the ecliptic! They're from TESS.</small>
 #### Projection 2: Galactic
 Galactic coordinates are, somewhat counter-intuitively, still centered on our Sun. In this case, 0º longitude is defined to be the line between the sun and the center of the galaxy. Latitude measures the angle of an object relative to the flat disk of the galaxy, as seen from Earth.
 
