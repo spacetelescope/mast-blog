@@ -34,16 +34,22 @@ MAST is not *merely* a data archive; we spend lots of time and effort making sur
 ### First Version: Intelligent Requests
 Our initial goal was for pixels half a degree wide, so there were `720x360=259200` regions for which we needed to know the total number of observations. Spamming our own servers with one request for each of the 2.6 million regions either requires immense patience (I'm not waiting 6 days for an answer!) or performing a [denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) on our own servers. The other extreme would be to do a single query, loading the entire database into memory. Clearly absurd<sup>1</sup>.
 
-<small>1 Unless....?</small>
+<small><sup>1</sup> Unless....?</small>
 
 Instead, the first successful image was produced with data from 720 [ADQL](https://en.wikipedia.org/wiki/Astronomical_Data_Query_Language) queries, avoiding a DoS attack while also working with reasonable RAM limitations. Here's roughly how the code works:
-1. Perform an ADQL query to get vertical slices of the sky. For the first slice, as an example, it would be: `SELECT trgposRA,trgposDec FROM [REDACTED].[CaomObservation] WHERE (trgposRA < 0.5 AND targposRA >= 0)`. Or, "Dear CAOM, please send me the coordinates of every observation with an RA between 0 and 0.5"
+1. Perform an ADQL query to get vertical slices of the sky. For the first slice, as an example, it would be: 
+```
+SELECT trgposRA,trgposDec FROM [REDACTED].[CaomObservation] WHERE (trgposRA < 0.5 AND targposRA >= 0)
+``` 
+Or, "Dear CAOM, please send me the coordinates of every observation with an RA between 0" and 0.5".
 2. The resulting vertical slice is`1/720` of the entire database. In our actual code, it is a pandas dataframe; we can use a mask to filter on the declination values and get a count. Here's how we accomplished this in practice:
+```
+for dec in dec_sample: 
+	mask = (data['trgPosDEC']>=(dec-(degree_res/2)))&(data['trgPosDEC']<(dec+(degree_res/2))) 
+	num_obs = sum(mask) 
+	obs_array.append(num_obs)
+```
 
-	`for dec in dec_sample:`
-		`mask = (data['trgPosDEC']>=(dec-(degree_res/2)))&(data['trgPosDEC']<(dec+(degree_res/2)))`
-		`num_obs = sum(mask)`
-		`obs_array.append(num_obs)`
 3. We now have the first vertical slice broken up into 360 pieces, with a count for each. We can repeat steps 1&2 until we have data for the entire sky.
 
 Following this recipe produces an image like the one below:
@@ -97,7 +103,7 @@ Great question. Take a look at our annotated map, which highlights a few points 
 ### I want to make my own map!
 You probably should not do this! It's a pretty large database query, and will degrade the performance of our server if a bunch of people attempt it.
 
-If you absolutely MUST make your own version, please use this [TAR file containing all CAOM observations](https://stsci.box.com/s/ok36t5mmczw6jjj4d6kcmsiiur6vmh1m). Pandas will know how to read it, with a quick `pd.read_pickle`.
+If you absolutely MUST make your own version, please use this [TAR file containing all CAOM observations](https://stsci.box.com/s/ok36t5mmczw6jjj4d6kcmsiiur6vmh1m). Pandas will know how to read it, with a quick `pd.read_pickle()`.
 
 ### What does this look like for individual missions?
 ![16 images, showing this map for various MAST missions](assets/img/posts/20250625/mast_missions.png)
