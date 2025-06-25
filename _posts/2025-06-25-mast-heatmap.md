@@ -63,8 +63,9 @@ Now, producing this image is very cool. But 360 pixels?? Surely we can get somet
 Unless....
 
 We said it would be unreasonable to load the entire archive into RAM. But what if we just try it? Drop the filters on the query and just send me everything!
-
-`SELECT trgposRA,trgposDec FROM [REDACTED].[CaomObservation]`
+```
+SELECT trgposRA,trgposDec FROM [REDACTED].[CaomObservation]
+```
 
 Much to our surprise, it worked! With the entire database in memory, we could now create images of arbitrary resolution. With `matplotlib.plt.hist2d`, it's trivially easy to specify the desired resolution of the image and let matplotlib handle the details. Just, uh... don't have too many other applications open.
 ![a screenshot showing that Python is currently consuming 51.86GB of RAM](assets/img/posts/20250625/brrrrr.png)
@@ -106,9 +107,11 @@ You probably should not do this! It's a pretty large database query, and will de
 If you absolutely MUST make your own version, please use this [TAR file containing all CAOM observations](https://stsci.box.com/s/ok36t5mmczw6jjj4d6kcmsiiur6vmh1m). Pandas will know how to read it, with a quick `pd.read_pickle()`.
 
 ### What does this look like for individual missions?
+If you also `SELECT obs_collection` from CAOM, you can build up this map for a particular mission. You'll see that the coverage of the sky depends highly on which mission you select! The largest collection, by far, is our [High-Level Science Products](https://mast.stsci.edu/hlsp/#/). This is due, in part, due to intense community interest in reprocessing TESS observations.
 ![16 images, showing this map for various MAST missions](assets/img/posts/20250625/mast_missions.png)
 
 ### What does this look like over time?
+You can also `SELECT t_min` to get the observation start time, which allows you to build up a picture of the archive over time:
 ![animated GIF, showing the evolution on the sky of MAST observations over time](assets/img/posts/20250625/mast_movie.gif)
 
-That's all for now!
+Want more visualizations? Stay tuned to the blog! We'll post anything new here.
