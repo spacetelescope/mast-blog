@@ -33,19 +33,21 @@ MAST is not *merely* a data archive; we spend lots of time and effort making sur
 
 ### First Version: Intelligent Requests
 Our initial goal was for pixels half a degree wide, so there were `720x360=259200` regions for which we needed to know the total number of observations. Spamming our own servers with one request for each of the 2.6 million regions either requires immense patience (I'm not waiting 6 days for an answer!) or performing a [denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) on our own servers. The other extreme would be to do a single query, loading the entire database into memory. Clearly absurd<sup>1</sup>.
+
 <small>1 Unless....?</small>
 
 Instead, the first successful image was produced with data from 720 [ADQL](https://en.wikipedia.org/wiki/Astronomical_Data_Query_Language) queries, avoiding a DoS attack while also working with reasonable RAM limitations. Here's roughly how the code works:
 1. Perform an ADQL query to get vertical slices of the sky. For the first slice, as an example, it would be: `SELECT trgposRA,trgposDec FROM [REDACTED].[CaomObservation] WHERE (trgposRA < 0.5 AND targposRA >= 0)`. Or, "Dear CAOM, please send me the coordinates of every observation with an RA between 0 and 0.5"
 2. The resulting vertical slice is`1/720` of the entire database. In our actual code, it is a pandas dataframe; we can use a mask to filter on the declination values and get a count. Here's how we accomplished this in practice:
+
 	`for dec in dec_sample:`
 		`mask = (data['trgPosDEC']>=(dec-(degree_res/2)))&(data['trgPosDEC']<(dec+(degree_res/2)))`
-		`num_obs = sum(mask)
+		`num_obs = sum(mask)`
 		`obs_array.append(num_obs)`
 3. We now have the first vertical slice broken up into 360 pieces, with a count for each. We can repeat steps 1&2 until we have data for the entire sky.
 
 Following this recipe produces an image like the one below:
-![the first, lower resolution version of the wallpaper](mast_wallpaper_blue_og.png)
+![the first, lower resolution version of the wallpaper](assets/img/posts/20250625/mast_wallpaper_blue_og.png)
 <small>The first version of the MAST background, with pixels half a degree wide. The intrinsic resolution of our data is therefore 720x360, which results in notable pixellation near the ecliptic poles. </small>
 
 Looks phenomenal! Many archive scientists were super excited to see this.
@@ -55,9 +57,10 @@ Now, producing this image is very cool. But 360 pixels?? Surely we can get somet
 Unless....
 
 We said it would be unreasonable to load the entire archive into RAM. But what if we just try it? Drop the filters on the query and just send me everything!
+
 `SELECT trgposRA,trgposDec FROM [REDACTED].[CaomObservation]`
 
-Much to our surprise, it worked! With the entire database in memory, we could now create images of arbitrary resolution. With `matplotlib.plt.hist2d`, it's trivially easy to set the size of the image and let it handle the aggregation. Just, uh... don't have too many other applications open.
+Much to our surprise, it worked! With the entire database in memory, we could now create images of arbitrary resolution. With `matplotlib.plt.hist2d`, it's trivially easy to specify the desired resolution of the image and let matplotlib handle the details. Just, uh... don't have too many other applications open.
 ![a screenshot showing that Python is currently consuming 51.86GB of RAM](assets/img/posts/20250625/brrrrr.png)
 At the end of this shockingly quick — roughly 2 minute— process, you'll have the first image from the intro:
 ![mast background in "standard", surface of the Earth, coordinates](assets/img/posts/20250625/mast_wallpaper_blue.png)
@@ -67,15 +70,15 @@ Now this is neat, but we have another trick up our sleeves: [astropy.coordinates
 
 #### Projection 1: Ecliptic
 As a quick refresher, CAOM uses coordinates aligned to the celestial pole, which is aligned to our rotating Earth. A declination of +90 is directly overhead the north pole, while -90 is directly overhead the south pole. Our first transformation is to the ecliptic plane, aligned instead to Earth's orbit around the sun:
-![a diagram showing how the ecliptic plane is defined](Earths_orbit_and_ecliptic.svg)
-<small>By <a href="//commons.wikimedia.org/wiki/User:CielProfond" title="User:CielProfond">CielProfond</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=156276169">Source</a> </small>
+![a diagram showing how the ecliptic plane is defined](assets/img/posts/20250625/Earths_orbit_and_ecliptic.svg)
+<small>By <a href="//commons.wikimedia.org/wiki/User:CielProfond" title="User:CielProfond">CielProfond</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=156276169">Source</a></small>
 
-Ecliptic coordinates are useful for space-based telescopes, since the sun is — by definition —always at a declination of $0\degree$. In fact, the [survey design of the TESS spacecraft](https://youtu.be/Q4KjvPIbgMI&t=115) takes advantage of this by always keeping one camera on the ecliptic pole, with the others facing opposite the sun.
+Ecliptic coordinates are useful for space-based telescopes, since the sun is — by definition —always at a declination of 0º. In fact, the [survey design of the TESS spacecraft](https://youtu.be/Q4KjvPIbgMI&t=115) takes advantage of this by always keeping one camera on the ecliptic pole, with the others facing opposite the sun.
 
 ![the MAST heatmap, reprojected to the plane of the ecliptic](assets/img/posts/20250625/mast_wallpaper_ecl_blue.png)
 <small>Ohhhh, so that's why those observations make a straight line around the plane of the ecliptic! They're from TESS.</smalll>
 #### Projection 2: Galactic
-Galactic coordinates are, somewhat counter-intuitively, still centered on our Sun. In this case, $0\degree$ longitude is defined to be the line between the sun and the center of the galaxy. Latitude measures the angle of an object relative to the flat disk of the galaxy, as seen from Earth.
+Galactic coordinates are, somewhat counter-intuitively, still centered on our Sun. In this case, 0º longitude is defined to be the line between the sun and the center of the galaxy. Latitude measures the angle of an object relative to the flat disk of the galaxy, as seen from Earth.
 
 ![](assets/img/posts/20250625/mw.jpg)
 <small>By NASA/JPL-Caltech/ESO/R. Hurt - <a rel="nofollow" class="external free" href="http://www.eso.org/public/images/eso1339e/">http://www.eso.org/public/images/eso1339e/</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=28274906">Source</a></small>
@@ -89,7 +92,7 @@ It's pretty dang cool that through metadata alone, we can reconstruct the shape 
 If you've read this far, thanks. Here are a few extra tidbits that you might be thinking about right now:
 ### Hey, what is that thing I see?
 Great question. Take a look at our annotated map, which highlights a few points of interest.
-![an annotated version of the heatmap](annotated.png)
+![an annotated version of the heatmap](assets/img/posts/20250625/annotated.png)
 
 ### I want to make my own map!
 You probably should not do this! It's a pretty large database query, and will degrade the performance of our server if a bunch of people attempt it.
