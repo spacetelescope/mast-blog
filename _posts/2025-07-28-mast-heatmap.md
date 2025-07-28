@@ -4,7 +4,7 @@ read_time: true
 show_date: true
 title: "MAST's View of the Sky: Your Next Wallpaper"
 date: 2025-07-28
-img: posts/20250728/mast_wallpaper_blue.png
+img: posts/20250728/mast_sky.png
 tags:
   - fun
   - outreach
@@ -15,7 +15,7 @@ description: Cool MAST wallpapers
 
 As of July 2025, MAST contains nearly *300 million* astronomical observations! That's a lot of data - but what does it look like? We have the answer!
 
-![mast background in "standard", surface of the Earth, coordinates](../assets/img/posts/20250728/colors/mast_wallpaper_hires_blue.png)
+![mast background in "standard", surface of the Earth, coordinates](assets/img/posts/20250728/mast_sky.png)
 
 These new wallpaper images depict MAST's View of the Sky! This is an image using astronomical coordinates Right Ascension (RA) and Declincation (Dec), where each pixel is colored according to the number of observations in MAST at those coordinates. Dark pixels have fewer observations, while brighter pixels have several thousand.
 
@@ -28,14 +28,14 @@ Here are the MAST Wallpaper images for you to download and use wherever you'd li
 <table>
     <tr style="display:block">
         <td style="text-align:center;">
-        <img width="300" src="../assets/img/posts/20250728/mast_sky.png" />
+        <img width="300" src="assets/img/posts/20250728/mast_sky.png" />
         <br> Celestial Coordinates  (RA, Dec)
         </td>
         <td style="text-align:center;">
-        <img width="300" src="../assets/img/posts/20250728/mast_ecl.png" />
+        <img width="300" src="assets/img/posts/20250728/mast_ecl.png" />
         <br>Ecliptic Coordinates (lon, lat)
         <td style="text-align:center;">
-        <img width="300" src="../assets/img/posts/20250728/mast_gal.png" />
+        <img width="300" src="assets/img/posts/20250728/mast_gal.png" />
         <br> Galactic Coordinates  (l, b)
         </td>
     </tr>
@@ -46,25 +46,25 @@ The wallpapers are available in a variety of different colors! Click on the imag
 <table>
     <tr>
         <td style="display:block">
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_blue.png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_blue_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_teals.png">
-            <img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_teals_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_ylgnbu.png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_ylgnbu_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_bluepink..png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_bluepink_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_bupu.png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_bupu_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_purplepink.png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_purplepink_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_purples.png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_purples_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_magma.png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_magma_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_pink.png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_pink_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_reds.png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_reds_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_reds2.png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_reds2_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_afmhot.png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_afmhot_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_gold.png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_gold_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_earth.png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_earth_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_viridis.png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_viridis_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_bnw.png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_bnw_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_rainbow.png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_rainbow_thumb.png" /></a>
-            <a href="../assets/img/posts/20250728/colors/mast_wallpaper_hires_pastels.png"><img width="120" src="../assets/img/posts/20250728/colors/thumbnails/mast_pastels_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_blue.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_blue_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_teals.png">
+            <img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_teals_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_ylgnbu.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_ylgnbu_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bluepink..png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bluepink_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bupu.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bupu_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_purplepink.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_purplepink_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_purples.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_purples_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_magma.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_magma_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_pink.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_pink_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_reds.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_reds_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_reds2.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_reds2_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_afmhot.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_afmhot_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_gold.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_gold_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_earth.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_earth_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_viridis.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_viridis_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bnw.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bnw_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_rainbow.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_rainbow_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_pastels.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_pastels_thumb.png" /></a>
         </td>
     </tr>
 </table>
@@ -73,7 +73,7 @@ The wallpapers are available in a variety of different colors! Click on the imag
 
 There's a lot going on in this image - here's an annotated version to help decipher what you are looking at!
 
-![an annotated version of the heatmap](../assets/img/posts/20250728/annotated.png)
+![an annotated version of the heatmap](assets/img/posts/20250728/annotated.png)
 
 This is a plot of celestial coordinates *Right Ascension* (on the x-axis) and *Declination* (on the y-axis), where each pixel is colored by the number of observations in MAST at that coordinate, randing from 0 (black) to 1,000 (white).
 
@@ -89,7 +89,7 @@ The winner for the single most observed area in the sky is the [GOODS-South Fiel
 
 MAST contains data from over 23 different missions, all of which have their own unique footprint on the sky. This figure shows the footprint for 16 different data collections, showing the sky map and number of observations in each. 
 
-![16 images, showing this map for various MAST missions](../assets/img/posts/20250728/mast_missions.png)
+![16 images, showing this map for various MAST missions](assets/img/posts/20250728/mast_missions.png)
 
 You'll see that the coverage of the sky depends highly on which mission you select! HST and JWST have observed lots of scattered points across the whole sky. Compare that to something like Pan-STARRS, which uniformly covered the entire sky north of declination -30 degrees.
 
@@ -101,7 +101,7 @@ The largest collection, by far, is our [High-Level Science Products](https://mas
 This animated movie shows how the archive has built up over time, based on the observation date of each observation in MAST:
 
 <video controls>
-  <source src="../assets/img/posts/20250728/mast_movie.mp4" type="video/mp4">
+  <source src="assets/img/posts/20250728/mast_movie.mp4" type="video/mp4">
 An animated movie, showing the evolution of MAST observations on the sky over time.
 </video>
 
