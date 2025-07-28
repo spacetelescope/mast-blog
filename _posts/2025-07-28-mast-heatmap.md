@@ -27,47 +27,25 @@ Here are the MAST Wallpaper images for you to download and use wherever you'd li
 
 ### Different Coordinate Projections
 
-<table>
-    <tr style="display:block">
-        <td style="text-align:center;">
-        <img width="300" src="assets/img/posts/20250728/mast_sky.png" />
-        <br> Celestial Coordinates  (RA, Dec)
-        </td>
-        <td style="text-align:center;">
-        <img width="300" src="assets/img/posts/20250728/mast_ecl.png" />
-        <br>Ecliptic Coordinates (lon, lat)
-        <td style="text-align:center;">
-        <img width="300" src="assets/img/posts/20250728/mast_gal.png" />
-        <br> Galactic Coordinates  (l, b)
-        </td>
-    </tr>
-</table>
+####  Celestial Coordinates  (RA, Dec)
 
+![mast background in "standard", surface of the Earth, coordinates](assets/img/posts/20250728/mast_sky.png)
+
+####  Ecliptic Coordinates (lon, lat)
+
+![mast background in ecliptic coordinates](assets/img/posts/20250728/mast_ecl.png)
+
+####  Galactic Coordinates  (l, b)
+
+![mast background in galactic coordinates](assets/img/posts/20250728/mast_gal.png)
 
 
 ### Different Colors
 
 The wallpapers are available in a variety of different colors! Click on the image to download the full-resolution version.
 
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_blue.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_blue_thumb.png" /></a>
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_teals.png">
-<img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_teals_thumb.png" /></a>
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_ylgnbu.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_ylgnbu_thumb.png" /></a>
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bluepink.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bluepink_thumb.png" /></a>
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bupu.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bupu_thumb.png" /></a>
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_purplepink.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_purplepink_thumb.png" /></a>
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_purples.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_purples_thumb.png" /></a>
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_magma.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_magma_thumb.png" /></a>
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_pink.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_pink_thumb.png" /></a>
- <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_reds.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_reds_thumb.png" /></a>
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_reds2.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_reds2_thumb.png" /></a>
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_afmhot.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_afmhot_thumb.png" /></a>
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_gold.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_gold_thumb.png" /></a>
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_earth.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_earth_thumb.png" /></a>
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_viridis.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_viridis_thumb.png" /></a>
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bnw.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bnw_thumb.png" /></a>
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_rainbow.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_rainbow_thumb.png" /></a>
-<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_pastels.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_pastels_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_blue.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_blue_thumb.png" /></a><a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_teals.png">
+<img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_teals_thumb.png" /></a><a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_ylgnbu.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_ylgnbu_thumb.png" /></a><a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bluepink.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bluepink_thumb.png" /></a><a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bupu.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bupu_thumb.png" /></a><a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_purplepink.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_purplepink_thumb.png" /></a><a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_purples.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_purples_thumb.png" /></a><a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_magma.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_magma_thumb.png" /></a><a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_pink.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_pink_thumb.png" /></a> <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_reds.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_reds_thumb.png" /></a><a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_reds2.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_reds2_thumb.png" /></a><a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_afmhot.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_afmhot_thumb.png" /></a><a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_gold.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_gold_thumb.png" /></a><a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_earth.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_earth_thumb.png" /></a><a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_viridis.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_viridis_thumb.png" /></a><a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bnw.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bnw_thumb.png" /></a><a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_rainbow.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_rainbow_thumb.png" /></a><a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_pastels.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_pastels_thumb.png" /></a>
 
 
 ## So, What am I looking at?
