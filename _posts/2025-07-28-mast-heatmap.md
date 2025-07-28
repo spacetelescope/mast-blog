@@ -22,9 +22,11 @@ These new wallpaper images depict MAST's View of the Sky! This is an image using
 Scroll down for the full story.
 
 ## Downloadable MAST Wallpapers
+
 Here are the MAST Wallpaper images for you to download and use wherever you'd like!
 
 ### Different Coordinate Projections
+
 <table>
     <tr style="display:block">
         <td style="text-align:center;">
@@ -42,7 +44,9 @@ Here are the MAST Wallpaper images for you to download and use wherever you'd li
 </table>
 
 ### Different Colors
+
 The wallpapers are available in a variety of different colors! Click on the image to download the full-resolution version.
+
 <table>
     <tr>
         <td style="display:block">
@@ -100,7 +104,7 @@ The largest collection, by far, is our [High-Level Science Products](https://mas
 
 This animated movie shows how the archive has built up over time, based on the observation date of each observation in MAST:
 
-<video controls>
+<video controls width="500px">
   <source src="assets/img/posts/20250728/mast_movie.mp4" type="video/mp4">
 An animated movie, showing the evolution of MAST observations on the sky over time.
 </video>
