@@ -50,7 +50,7 @@ The wallpapers are available in a variety of different colors! Click on the imag
             <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_teals.png">
             <img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_teals_thumb.png" /></a>
             <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_ylgnbu.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_ylgnbu_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bluepink..png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bluepink_thumb.png" /></a>
+            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bluepink.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bluepink_thumb.png" /></a>
             <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bupu.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bupu_thumb.png" /></a>
             <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_purplepink.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_purplepink_thumb.png" /></a>
             <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_purples.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_purples_thumb.png" /></a>
