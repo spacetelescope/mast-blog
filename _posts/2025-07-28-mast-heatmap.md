@@ -27,13 +27,6 @@ Here are the MAST Wallpaper images for you to download and use wherever you'd li
 
 ### Different Coordinate Projections
 
-
-| | | |
-|:----:|:----:|:----:|
-|testing | table | layout?? |
-
-
-
 <table>
     <tr style="display:block">
         <td style="text-align:center;">
@@ -56,35 +49,25 @@ Here are the MAST Wallpaper images for you to download and use wherever you'd li
 
 The wallpapers are available in a variety of different colors! Click on the image to download the full-resolution version.
 
-
-
-<table>
-    <tr>
-        <td style="display:block">
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_blue.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_blue_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_teals.png">
-            <img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_teals_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_ylgnbu.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_ylgnbu_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bluepink.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bluepink_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bupu.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bupu_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_purplepink.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_purplepink_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_purples.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_purples_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_magma.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_magma_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_pink.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_pink_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_reds.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_reds_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_reds2.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_reds2_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_afmhot.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_afmhot_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_gold.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_gold_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_earth.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_earth_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_viridis.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_viridis_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bnw.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bnw_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_rainbow.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_rainbow_thumb.png" /></a>
-            <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_pastels.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_pastels_thumb.png" /></a>
-        </td>
-    </tr>
-</table>
-
-
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_blue.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_blue_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_teals.png">
+<img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_teals_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_ylgnbu.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_ylgnbu_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bluepink.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bluepink_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bupu.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bupu_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_purplepink.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_purplepink_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_purples.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_purples_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_magma.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_magma_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_pink.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_pink_thumb.png" /></a>
+ <a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_reds.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_reds_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_reds2.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_reds2_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_afmhot.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_afmhot_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_gold.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_gold_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_earth.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_earth_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_viridis.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_viridis_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_bnw.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_bnw_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_rainbow.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_rainbow_thumb.png" /></a>
+<a href="assets/img/posts/20250728/colors/mast_wallpaper_hires_pastels.png"><img width="120" src="assets/img/posts/20250728/colors/thumbnails/mast_pastels_thumb.png" /></a>
 
 
 ## So, What am I looking at?
@@ -122,6 +105,8 @@ This animated movie shows how the archive has built up over time, based on the o
   <source src="assets/img/posts/20250728/mast_movie.mp4" type="video/mp4">
 An animated movie, showing the evolution of MAST observations on the sky over time.
 </video>
+
+
 
 Starting with the launch of HST in 1990, only small points of the sky were observed and start to build up over time. Around 2000, data from the Sloan Digital Sky Survey (SDSS) comes into play and starts to cover larger areas of the sky. When TESS launched in 2019, the data really explodes. The upcoming launch of the Roman Space Telescope will add over 20,000 terabytes more data to MAST!
 
