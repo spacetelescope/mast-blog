@@ -125,14 +125,14 @@ Starting with the launch of HST in 1990, only small points of the sky were obser
 
 ## How did you make this?
 
-If you want to know more about this visualization of MAST, check out the new [Juptyer Notebook Tutorial: MAST'S View of the Sky](https://spacetelescope.github.io/mast_notebooks/intro.html) which shows how it was made!
+If you want to know more about this visualization of MAST, check out the new [Juptyer Notebook Tutorial: MAST'S View of the Sky](https://spacetelescope.github.io/mast_notebooks/notebooks/Visualizations/mast_sky/mast_sky.html) which shows how it was made!
 
 MAST is like a library - our collections are open to the public and free of cost. For both libraries and MAST, maintaining a detailed catalog that lists everything in the collection is extremely important to help people find what they are looking for. A library might catalog the book title, author's name, publishing year, and the location on the shelf for every book in its collection. At MAST, we maintain a list of the filenames, the astronomical coordinates, the exposure date, which telescope was used, and so much more, for every single file in the archive. This information is referred to as 'metadata' - important information which describes the contents of every file!
 
 At MAST, this metadata catalog is accessible from your web browser using the [MAST Portal](https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html), in Python using [astroquery.MAST](https://astroquery.readthedocs.io/en/latest/mast/mast.html), or using the [Table Access Protocal (VO-TAP)](https://mast.stsci.edu/vo-tap/) service. With this MAST metadata catalog, we can retrieve a huge list of astronomical coordinates for every observation in MAST. Using the central coordinates of all observations in our database, we can create this density plot on the sky!
 
 ## Conclusions and Other Thoughts
-It's pretty dang cool that through metadata alone, we can reconstruct the shape and even texture of the milky way. These images, which are gorgeous, are also a powerful reminder that MAST has a lot of data. And this is a reminder that those data are free for anyone to access, so check them out through our [search forms](https://mast.stsci.edu/search/ui) or our [astroquery API](https://spacetelescope.github.io/mast_notebooks/intro.html)!
+It's pretty dang cool that through metadata alone, we can reconstruct the shape and even texture of the milky way. These images, which are gorgeous, are also a powerful reminder that MAST has a lot of data. And this is a reminder that those data are free for anyone to access, so check them out through our [search forms](https://mast.stsci.edu/search/ui) or our [astroquery API](https://astroquery.readthedocs.io/en/latest/mast/mast.html)!
 
 ### Stay tuned for more!
 
