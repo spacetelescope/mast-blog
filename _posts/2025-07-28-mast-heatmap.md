@@ -17,7 +17,7 @@ As of July 2025, MAST contains nearly *300 million* astronomical observations! T
 
 ![mast background in "standard", surface of the Earth, coordinates](assets/img/posts/20250728/mast_sky.png)
 
-These new wallpaper images depict MAST's View of the Sky! This is an image using astronomical coordinates Right Ascension (RA) and Declincation (Dec), where each pixel is colored according to the number of observations in MAST at those coordinates. Dark pixels have fewer observations, while brighter pixels have several thousand.
+These new wallpaper images depict MAST's View of the Sky! This is an image using astronomical coordinates Right Ascension (RA) and Declination (Dec), where each pixel is colored according to the number of observations in MAST at those coordinates. Dark pixels have fewer observations, while brighter pixels have several thousand.
 
 Scroll down for the full story.
 
