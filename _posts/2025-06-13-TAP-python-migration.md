@@ -4,6 +4,7 @@ read_time: true
 show_date: true
 title: "June 26: all TAP access to Python"
 date: 2025-06-10
+img: posts/20250613/VAO_logo_200.png
 tags:
   - tools-techniques
 category: IVOA
