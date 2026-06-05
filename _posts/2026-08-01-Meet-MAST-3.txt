@@ -1,0 +1,47 @@
+---
+layout: post
+read_time: true
+show_date: true
+title: "Meet MAST: Brian Erickson"
+date: 1900-01-01
+img: posts/19000101/template_image.png
+tags: [outreach, fun]
+category: template
+author: Me, myself, and I
+description: "This is a template to be used for future posts"
+---
+  Welcome to part 3 of our "Meet MAST series". If you've missed the others, check them out here (link). 
+  This interview is with... 
+ 
+ 
+## Brian Erickson – Principal Software Engineer 
+ 
+Brian is our resident code-smith. He leads engineering for the new MAST mission search applications and architects the system of components MAST uses to create new tools. Because of his work, development is easier and our interfaces more consistent across MAST. Everyone who uses MAST has benefitted from his work. We are lucky to have him. Without further ado— 
+ 
+## What brought you to MAST?  
+I’m a Software Engineer who has always had a passion looking up at the night sky. Joining MAST is my way to utilize my technical background in support the astronomical community. 
+ 
+## What is your personal favorite MAST service? 
+MissionMAST (MAST Search) 
+ 
+## Granted, I may be a little biased - as one of the original product owners and lead developers. I have had the opportunity to collaborate closely with the UX-designer and scientists to build MissionMAST into what it is today. Furthermore, with so many planned features and upcoming missions (Roman), I'm very excited to be a part of expanding MissionMAST for the foreseeable future. 
+ 
+## Describe how you spend a typical day-to-day at MAST?  
+I'm trying to avoid the cliche response of, "there is no such thing as a typical day" but, there's certainly some truth in that. Depending on priorities, interrupts, and how much coffee I've consumed, I'll tackle different things. Some days I'm deep diving into troubleshooting an issue or building new features. Other days, I'm collaborating with others to brainstorm or define future work. Recently, I've also been a placing an emphasis on identifying performance bottlenecks, which will provide opportunities to improve the user-experience of our AUIs and APIs. Ultimately, any challenge that I can really deep-dive into and focus on keeps me in state of "flow." 
+ 
+## What is your workspace like? Do you work from home, or the office? Desk or couch?  
+I maintain a home office with a proper computer desk, chair, and ergonomics. Having this dedicated space, in an "office configuration", allows me to fully focus and avoid distractions. I'm slowly working towards decorating the walls with various Hubble and Webb images. Currently my collection includes: NGC 6357 (Lobster Nebula), M16 (Pillars of Creation), Rho Ophiuchi, Herbig-Haro 46/47, and Westerlund 2. 
+ 
+## Share key parts of your schooling & career that enabled you to join MAST?  
+For as long as I can remember I've had a passion for technology. I've been programming since I was 13 years old and got my Bachelor's and Master's degrees in Computer Science. Before joining MAST, I worked as a Software Engineer in a variety of industries—education, healthcare, aviation, national defense, and more. This diverse experience aligned with the needs of MAST, ultimately allowing me support efforts that are no longer confined to just this planet. 
+ 
+## Name your 2 truths and a lie J 
+	1	I was raised on a dairy farm in rural Pennsylvania. 
+	2	I have two teenage boys that want to become astronauts. 
+	3	I have a large video game collection spanning most consoles from Colecovision up through PS5. 
+ 
+## What most excites you about the future? 
+The upcoming Space Telescopes! I still remember how amazed I was as a kid when I first saw images from Hubble on TV. With Hubble still operating combined with the clarity Webb provides, I'm in awe to this day. As astronomy and technology continue to advance, I can't wait to see what Roman (and the Habitable Worlds Observatory further down the road) will reveal. 
+ 
+## What is your star sign? 
+My star sign is Aries. I don't tend to keep track of horoscopes, but I decided to look up Aries and somewhat agree with the associated traits: "confident, optimistic, passionate, and honest." Furthermore, the Ram symbol "represents an ability to push forward and initiate action." On the other hand, it describes some cautionary traits of competitiveness and impatience. I'm afraid to admit it, but in some contexts those traits fit me as well. 
