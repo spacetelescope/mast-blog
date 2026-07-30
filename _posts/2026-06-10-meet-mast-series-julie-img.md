@@ -27,7 +27,7 @@ As part of *Meet MAST*, you'll learn about the people who make MAST possible, th
 
 Our first interview is with Julie Imig, Senior Astronomical Data Scientist.
 
-# Meet Julie Imig
+## Meet Julie Imig
 
 *"What? Julie! You made all of these?"*
 
@@ -43,9 +43,9 @@ Years later, whenever I use visualizations such as [MAST's View of the Sky](http
 
 In this interview, Julie shares her path into astronomy, her work at MAST, the projects she is most proud of, and some of the creative hobbies that keep her inspired outside of work.
 
-![Julie's images](../assets/img/posts/20260610/julie_images.png)
+![Julie's images](/assets/img/posts/20260610/julie_images.png)
 
-#### Share key parts of your schooling/career that enabled you to join MAST
+### Share key parts of your schooling/career that enabled you to join MAST
 
 My career path has been fairly typical for an astronomer: I have an undergraduate degree in Physics from the University of Utah and a PhD in Astronomy from New Mexico State University.
 
@@ -53,37 +53,34 @@ Several years before I joined MAST, I was actually an undergraduate summer inter
 
 Another key experience for me was in graduate school, I led the data reductions and quality control for the SDSS APOGEE Survey for several years. Every single night as fresh data came off the telescope, I had the responsibility of inspecting it to make sure that everything was successful and the data was high-quality. I have looked at literally MILLIONS of spectra over the several years that I did this - and that very much prepared me for working with the large volume of data we process at MAST! 
 
-#### What brought you to MAST?
+### What brought you to MAST?
 
 I joined the MAST team in 2023, and I was drawn to the archive because I believe in the mission. We archive data from dozens of different telescopes, dating back to 1978. Making sure that data is available and easily accessible is so important - there are still so many scientific discoveries to be made, even with "old" data. MAST enables scientific discovery through its data accessibility, which is something that I am very passionate about.
 
-#### What does a typical day at MAST look like for you?
+### What does a typical day at MAST look like for you?
 
 My typical day is a combination of meetings, coding, and research! One of the fun things about working at MAST is the variety of different projects we're involved in. One minute I'll be helping publish brand new JWST data of exoplanets, and the next I might be copying SDSS data from the 1990s, or updating some software in preparation for Roman. Then in the afternoon I'll be working on my own research projects uncovering the mysteries of the Milky Way. Everyone here is so passionate about what we do, and there are so many cool projects, it can be difficult to not want to be involved in everything!
 
-#### Share your personal favorite MAST service?
+### Share your personal favorite MAST service?
 
 It may be a little outdated, but I absolutely love the MAST Portal (https://mast.stsci.edu/)! It's an incredibly powerful tool for searching through the hundreds of millions of observations in the archive. The advanced search capabilities make discovering new data so easy - for example, finding a light curve to complement a spectrum I have of a particular star, or even for answering silly questions like "What was HST looking at on the day I was born?" (For me, it was the planetary nebula NGC-2022!)
 
 On a personal note, I'm also very proud of the SDSS Legacy Archive at MAST (https://archive.stsci.edu/sdss), which I helped create! I have spent many years of my professional career working with data from SDSS, which covers almost everything an astronomer could ask for - galaxies, stars, spectra, imaging, optical, infrared, you name it. Now that data is available at MAST, right next to HST, JWST, and TESS, enabling the kind of cross-mission science that makes me so excited. 
 
 
-#### What is your workspace like? Do you work from home, or the office? Desk or couch?
+### What is your workspace like? Do you work from home, or the office? Desk or couch?
 
 You can find me around the office 3-4 days a week, and working from home the rest of the time! I appreciate having the flexibility. My office space is decorated with a variety of astronomy-related things: an aluminum plug plate from SDSS, different posters of HST/JWST images, and several NASA Lego sets! "The Milky Way Galaxy" and the "Women of NASA" Lego sets are two of my favorites.
 
 
-#### What do you do outside work for fun?
+### What do you do outside work for fun?
 
 I have a lot of hobbies which can loosely be described as "making stuff" - I enjoy painting, sewing, sculpting, 3D printing, and challenging myself to learn new artistic skills all the time. I love all things fantasy, such as playing Dungeons and Dragons or going to Renaissance Festivals with my friends, and that drives a lot of my creative projects!
 
-#### What most excites you about the future?
+### What most excites you about the future?
 
 I am beyond excited for the launch of the Roman Space Telescope this year!! In my research field, there are a lot of open questions about the history of the Milky Way, and how we compare to other galaxies in the Universe. Roman's infrared eyesight, high resolution, and large-scale surveys are going to help directly answer those questions and lead to so many new discoveries. I can't wait.
 
-#### If you were a space telescope, which one would you be?
+### If you were a space telescope, which one would you be?
 
 If I were a space telescope, I think I would be Gaia! Gaia was launched in 2013, which was the same year that I started pursuing my astronomy career in college. And just like Gaia, I have spent the last 13 years mapping the Milky Way using a very large sample of stars! 
-
-Author: Jinmi Yoon
-Editor:
