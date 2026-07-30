@@ -43,7 +43,7 @@ Years later, whenever I use visualizations such as [MAST's View of the Sky](http
 
 In this interview, Julie shares her path into astronomy, her work at MAST, the projects she is most proud of, and some of the creative hobbies that keep her inspired outside of work.
 
-![Julie's images](/assets/img/posts/20260610/julie_images.png)
+![Julie's images](assets/img/posts/20260610/julie_images.png)
 
 ### Share key parts of your schooling/career that enabled you to join MAST
 
