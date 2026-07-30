@@ -84,6 +84,3 @@ I am beyond excited for the launch of the Roman Space Telescope this year!! In m
 ### If you were a space telescope, which one would you be?
 
 If I were a space telescope, I think I would be Gaia! Gaia was launched in 2013, which was the same year that I started pursuing my astronomy career in college. And just like Gaia, I have spent the last 13 years mapping the Milky Way using a very large sample of stars! 
-
-Author: Jinmi Yoon
-Editor:
