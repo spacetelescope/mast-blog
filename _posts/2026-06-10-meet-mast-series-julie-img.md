@@ -12,7 +12,6 @@ category: fun
 author: Jinmi Yoon
 description: "This is the premiere article for *Meet MAST Series* and an interview with Julie."
 ---
-# A Series: *"Meet MAST"*
 
 > I remember how little I knew about MAST when I was preparing for my job interview. STScI is a highly respected institution, and I was inspired by MAST's mission to make data from more than twenty space missions available to everyone. The opportunity to work at such a renowned place was incredibly attractive.
 >
