@@ -3,7 +3,7 @@
 /* Main Color palette and fonts */
 
 html {
-  --accent:       #DB504A;    /* accent     */
+  --accent:       #A75000;    /* accent     */
   --accent-dark:  #4e3e51;    /* accent 2   */
   --main:         #326273;    /* main color */
   --main-dim:     #879dab;    /* dimmed version of main color */
@@ -27,7 +27,7 @@ html {
 }
 
 html[data-theme="dark"]  {
-  --accent:       #d14c47;    /* accent     */
+  --accent:       #A75000;    /* accent     */
   --accent-dark:  #DBBEA1;    /* accent 2   */
   --main:         #5F8081;    /* main color */
   --main-dim:     #333D47;    /* dimmed version of main color */
