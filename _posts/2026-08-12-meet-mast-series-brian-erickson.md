@@ -4,13 +4,13 @@ read_time: true
 show_date: true
 title: "Meet MAST: Brian Erickson"
 date: 2026-08-12
-img: assets/img/posts/20260812/headshot.jpg
+img: posts/20260812/headshot.jpg
 tags: [outreach, fun]
 category: template
 author: Jenn Kotler
 description: "Meet Brian, lead software developer at MAST"
 ---
-Welcome to part 2 of our "Meet MAST series". Check out [part 1](2026-06-10-meet-mast-series-julie-imig.md).
+Welcome to part 2 of our "Meet MAST series". Check out [part 1](posts/20260610/2026-06-10-meet-mast-series-julie-imig.md).
 This interview is with...
 
 
@@ -41,10 +41,12 @@ I maintain a home office with a proper computer desk, chair, and ergonomics. Hav
 ## Share key parts of your schooling & career that enabled you to join MAST?
 For as long as I can remember I've had a passion for technology. I've been programming since I was 13 years old and got my Bachelor's and Master's degrees in Computer Science. Before joining MAST, I worked as a Software Engineer in a variety of industries-education, healthcare, aviation, national defense, and more. This diverse experience aligned with the needs of MAST, ultimately allowing me support efforts that are no longer confined to just this planet.
 
-## Name your 2 truths and a lie J
-1	I was raised on a dairy farm in rural Pennsylvania.
-2	I have two teenage boys that want to become astronauts.
-3	I have a large video game collection spanning most consoles from Colecovision up through PS5.
+## Name your 2 truths and a lie 
+1	— I was raised on a dairy farm in rural Pennsylvania.
+
+2	— I have two teenage boys that want to become astronauts.
+
+3	— I have a large video game collection spanning most consoles from Colecovision up through PS5.
 
 ![Brian and his sons](assets/img/posts/20260812/family.jpg)
 
