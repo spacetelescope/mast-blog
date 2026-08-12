@@ -4,13 +4,13 @@ read_time: true
 show_date: true
 title: "Meet MAST: Brian Erickson"
 date: 2026-08-12
-img: posts/20260812/headshot.png
+img: assets/img/posts/20260812/headshot.jpg
 tags: [outreach, fun]
 category: template
 author: Jenn Kotler
 description: "Meet Brian, lead software developer at MAST"
 ---
-Welcome to part 2 of our "Meet MAST series". If you've missed the others, check them out here (link).
+Welcome to part 2 of our "Meet MAST series". Check out [part 1](2026-06-10-meet-mast-series-julie-imig.md).
 This interview is with...
 
 
@@ -28,7 +28,7 @@ Brian often has ideas of how to make our tools function even better, and I can a
 I'm a Software Engineer who has always had a passion looking up at the night sky. Joining MAST is my way to utilize my technical background in support the astronomical community.
 
 ## What is your personal favorite MAST service?
-MissionMAST (MAST Search)
+[MissionMAST (MAST Search)](https://mast.stsci.edu/search/)
 
 Granted, I may be a little biased - as one of the original product owners and lead developers. I have had the opportunity to collaborate closely with the UX-designer and scientists to build MissionMAST into what it is today. Furthermore, with so many planned features and upcoming missions (Roman), I'm very excited to be a part of expanding MissionMAST for the foreseeable future.
 
@@ -42,9 +42,9 @@ I maintain a home office with a proper computer desk, chair, and ergonomics. Hav
 For as long as I can remember I've had a passion for technology. I've been programming since I was 13 years old and got my Bachelor's and Master's degrees in Computer Science. Before joining MAST, I worked as a Software Engineer in a variety of industries-education, healthcare, aviation, national defense, and more. This diverse experience aligned with the needs of MAST, ultimately allowing me support efforts that are no longer confined to just this planet.
 
 ## Name your 2 truths and a lie J
-	1	I was raised on a dairy farm in rural Pennsylvania.
-	2	I have two teenage boys that want to become astronauts.
-	3	I have a large video game collection spanning most consoles from Colecovision up through PS5.
+1	I was raised on a dairy farm in rural Pennsylvania.
+2	I have two teenage boys that want to become astronauts.
+3	I have a large video game collection spanning most consoles from Colecovision up through PS5.
 
 ![Brian and his sons](assets/img/posts/20260812/family.jpg)
 
