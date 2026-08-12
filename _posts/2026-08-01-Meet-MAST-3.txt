@@ -10,7 +10,7 @@ category: template
 author: Me, myself, and I
 description: "This is a template to be used for future posts"
 ---
-  Welcome to part 3 of our "Meet MAST series". If you've missed the others, check them out here (link). 
+  Welcome to part 2 of our "Meet MAST series". If you've missed the others, check them out here (link). 
   This interview is with... 
  
  
