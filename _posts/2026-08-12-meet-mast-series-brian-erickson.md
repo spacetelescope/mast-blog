@@ -10,7 +10,7 @@ category: template
 author: Jenn Kotler
 description: "Meet Brian, lead software developer at MAST"
 ---
-Welcome to part 2 of our "Meet MAST series". Check out [part 1](posts/20260610/2026-06-10-meet-mast-series-julie-imig.md).
+Welcome to part 2 of our "Meet MAST series". Check out [part 1](./20260610/2026-06-10-meet-mast-series-julie-imig.md).
 This interview is with...
 
 
