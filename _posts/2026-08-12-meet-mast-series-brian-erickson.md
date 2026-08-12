@@ -3,12 +3,12 @@ layout: post
 read_time: true
 show_date: true
 title: "Meet MAST: Brian Erickson"
-date: 1900-01-01
+date: 2026-08-12
 img: posts/19000101/template_image.png
 tags: [outreach, fun]
 category: template
-author: Me, myself, and I
-description: "This is a template to be used for future posts"
+author: Jenn Kotler
+description: "Meet Brian, lead software developer at MAST"
 ---
   Welcome to part 2 of our "Meet MAST series". If you've missed the others, check them out here (link). 
   This interview is with... 
@@ -16,7 +16,11 @@ description: "This is a template to be used for future posts"
  
 ## Brian Erickson – Principal Software Engineer 
  
-Brian is our resident code-smith. He leads engineering for the new MAST mission search applications and architects the system of components MAST uses to create new tools. Because of his work, development is easier and our interfaces more consistent across MAST. Everyone who uses MAST has benefitted from his work. We are lucky to have him. Without further ado— 
+I have been working as a user experience designer for close to 15 years. In that time I have worked with a *lot* of developers. Brian is top notch. When I hand him a design, he delivers! His attention to detail and polish is unmatched. We often sit down and live-code CSS until it looks just right. He is truly a craftsman! 
+
+Here's an example to illustrate Brian's commitment to getting the job done right. Brian is the attentive owner of two Dachshunds, which are notoriously intense dogs. (My in-laws dachshund regularly hunted Baltimore city rats!) Rather than taking the easy route of outsourcing grooming to a professional (like I do), he purchased a Dachshund sling which comfortably cradles them as he calmly cuts their nails. Brian brings that level of commitment to getting the job done right at MAST. When there is a difficult problem, he finds the proverbial Dachshund sling to solve it.
+
+Brian often has ideas of how to make our tools function even better, and I can always count on him to catch things that I missed considering in the design. He leads engineering for the new MAST mission search applications and architects the system of components MAST uses to create new tools. Because of his work, development is easier and our interfaces more consistent across MAST. Everyone who uses MAST has benefited from his work. We are lucky to have him. Without further ado—
  
 ## What brought you to MAST?  
 I’m a Software Engineer who has always had a passion looking up at the night sky. Joining MAST is my way to utilize my technical background in support the astronomical community. 
